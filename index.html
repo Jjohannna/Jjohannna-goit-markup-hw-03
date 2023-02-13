@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+
+    <!-- normalize -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
+
+    <!-- font-family -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,15 +20,19 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- portfolio.html -->
     <link rel="stylesheet" href="./portfolio.html" />
+
+    <!-- styles-css -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!-- Header -->
-    <header>
-      <div class="container">
-        <div class="header-container">
+    <header class="header">
+      <div class="container header-container">
+       
         <nav class="header-nav">
           <a href="./index.html" class="logo"
             >WEB<span class="logo-second">STUDIO</span></a
@@ -51,7 +59,7 @@
           </ul>
         </address>
       </div>
-      </div>
+      
     </header>
 
     <main>
@@ -59,8 +67,7 @@
       <section class="section hero">
         <div class="container">
           <h1 class="hero-title">
-            Effective Solutions <br />
-            for Your Business
+            Effective Solutions for Your Business
           </h1>
           <button class="hero-button" type="button">Order Service</button>
         </div>
@@ -68,30 +75,30 @@
       <!-- секція2 Benefits-->
       <section class="section">
         <div class="container">
-          
-        <ul class="benefits list">
-          <li class="item">
+          <h2 class="visually-hidden">Our benefits</h2>
+        <ul class="benefits-list list">
+          <li class="benefits-item">
             <h3 class="section-subtitle">Strategy</h3>
             <p class="section-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="benefits-item">
             <h3 class="section-subtitle">Punctuality</h3>
             <p class="section-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="benefits-item">
             <h3 class="section-subtitle">Diligence</h3>
             <p class="section-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="benefits-item">
             <h3 class="section-subtitle">Technologies</h3>
             <p class="section-text">
               Design practice focused on digital experiences. We bring forth a
@@ -101,7 +108,7 @@
         </ul>
         </div>
         
-        <h2 hidden>Our benefits</h2>
+        
       </section>
       <!-- секція3 -->
       <section class="section about">
